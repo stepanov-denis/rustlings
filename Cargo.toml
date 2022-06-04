@@ -3,6 +3,7 @@ name = "rustlings"
 version = "4.7.1"
 authors = ["Stepanov Denis <stepanov.d.m@yandex.ru>"]
 edition = "2021"
+description = "My small exercises to get you used to reading and writing Rust code!"
 repository = "https://github.com/stepanov-denis/rustlings/"
 keywords = ["rustlings"]
 documentation = "https://docs.rs/stepanov-denis/rustlings/"
