@@ -9,15 +9,14 @@
 // implementing this trait.
 
 trait AppendBar {
-    fn append_bar(self) -> Self where Self: Sized {
-        self
-    }
+    fn append_bar(self) -> Self;
 }
 
 impl AppendBar for String {
     //Add your code here
-    fn append_bar(self) -> String {
-        format!("{}{}", self.0, self.1)
+    fn append_bar(mut self) -> Self {
+        self.push_str("Bar");
+        self
     }
 }
 
