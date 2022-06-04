@@ -1,8 +1,12 @@
 [package]
 name = "rustlings"
 version = "4.7.1"
-authors = ["mokou <mokou@fastmail.com>", "Carol (Nichols || Goulding) <carol.nichols@gmail.com>"]
+authors = ["Stepanov Denis <stepanov.d.m@yandex.ru>"]
 edition = "2021"
+repository = "https://github.com/stepanov-denis/rustlings/"
+keywords = ["rustlings"]
+documentation = "https://docs.rs/stepanov-denis/rustlings/"
+readme = "README.md"
 
 [dependencies]
 argh = "0.1"
