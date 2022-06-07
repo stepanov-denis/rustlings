@@ -39,7 +39,7 @@ mod tests {
             made_by_mobile: false,
             made_by_email: true,
             item_number: 123,
-            count: 1
+            count: 1,
         };
 
         assert_eq!(your_order.name, "Hacker in Rust");

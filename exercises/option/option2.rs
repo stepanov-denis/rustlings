@@ -7,7 +7,7 @@ fn main() {
     let word = optional_word;
     match word {
         Some(word) => println!("The word is: {}", word),
-        None => println!("The optional word doesn't contain anything")
+        None => println!("The optional word doesn't contain anything"),
     }
 
     let mut optional_integers_vec: Vec<Option<i8>> = Vec::new();
@@ -18,8 +18,8 @@ fn main() {
     // TODO: make this a while let statement - remember that vector.pop also adds another layer of Option<T>
     // You can stack `Option<T>`'s into while let and if let
     let integer = optional_integers_vec.pop();
-        match integer {
-            Some(x) => println!("current value: {:?}", integer),
-            None => println!("The optional integer doesn't contain anything")
-        }
+    match integer {
+        Some(x) => println!("current value: {:?}", integer),
+        None => println!("The optional integer doesn't contain anything"),
+    }
 }

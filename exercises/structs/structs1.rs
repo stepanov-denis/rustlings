@@ -4,7 +4,7 @@
 struct ColorClassicStruct {
     // TODO: Something goes here
     name: String,
-    hex: String
+    hex: String,
 }
 
 struct ColorTupleStruct(String, String);
@@ -19,7 +19,10 @@ mod tests {
     #[test]
     fn classic_c_structs() {
         // TODO: Instantiate a classic c struct!
-        let green = ColorClassicStruct { name: "green".to_string(), hex: "#00FF00".to_string() };
+        let green = ColorClassicStruct {
+            name: "green".to_string(),
+            hex: "#00FF00".to_string(),
+        };
 
         assert_eq!(green.name, "green");
         assert_eq!(green.hex, "#00FF00");

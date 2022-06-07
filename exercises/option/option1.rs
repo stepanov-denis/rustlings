@@ -12,9 +12,7 @@ fn main() {
 
     let mut numbers: [Option<u16>; 5] = [Some(1), Some(2), Some(3), Some(4), Some(5)];
     for iter in 0..5 {
-        let number_to_add: u16 = {
-            ((iter * 1235) + 2) / (4 * 16)
-        };
+        let number_to_add: u16 = { ((iter * 1235) + 2) / (4 * 16) };
 
         numbers[iter as usize] = Some(number_to_add);
     }

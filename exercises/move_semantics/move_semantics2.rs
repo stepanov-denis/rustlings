@@ -8,7 +8,12 @@ fn main() {
     let mut vec1 = fill_vec((&vec0).to_vec());
 
     // Do not change the following line!
-    println!("{} has length {} content `{:?}`", "vec0", &vec0.len(), &vec0);
+    println!(
+        "{} has length {} content `{:?}`",
+        "vec0",
+        &vec0.len(),
+        &vec0
+    );
 
     vec1.push(88);
 
